@@ -10,7 +10,10 @@ CREATE TABLE "public"."portlet" (
 ) WITH (oids = false);
 
 INSERT INTO "portlet" ("header", "portlet_name") VALUES
-('portlet_01',	'Window title of portlet_01');
+('Window title of portlet_01','portlet_01'),
+('Window title of portlet_02','portlet_02'),
+('Window title of portlet_03','portlet_03'),
+('Window title of portlet_04','portlet_04');
 
 CREATE SEQUENCE seq_user INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 12 CACHE 1;
 

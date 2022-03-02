@@ -9,6 +9,7 @@
 	
 	$oRecordset = fncQueryPg($sQuery);
 	$header ='';
+	$header = $oRecordset[0]["header"]["VALUE"];
 	if(sizeof($oRecordset) > 0)
 	{
 		$header = $oRecordset[0]["header"]["VALUE"];
