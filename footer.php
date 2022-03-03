@@ -57,7 +57,7 @@
 		.addClass( "ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" )
 		.find( ".portlet-header" )
 		.addClass( "ui-widget-header ui-corner-all" )
-		.prepend( "<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
+		.prepend( "<span id='s1' class='ui-icon ui-icon-minusthick portlet-toggle'></span>");	
 	$( ".portlet-toggle" ).on( "click", function() {
 		var icon = $( this );
 		icon.toggleClass( "ui-icon-minusthick ui-icon-plusthick" );
@@ -86,6 +86,7 @@
 	{
 		for (var k in showOrHide)
 		{
+			var last2 = k.slice(-2);
 			if (showOrHide.hasOwnProperty(k)) 
 			{
 				if (showOrHide[k] == 1 ) 
@@ -95,6 +96,7 @@
 				else if (showOrHide[k] == 0 ) 
 				{
 					$('#' + k).hide();
+					$('#portlet-header-' + last2 + ' #s1.ui-icon-minusthick').removeClass('ui-icon-minusthick').addClass('ui-icon-plusthick');
 				}
 			}
 		}
