@@ -2,7 +2,7 @@
 
 Client and server side library of simple functions in plain PHP and JQUERY UI for managing a portal with portlets position and state saved in a postgresql database in real time.
 
-![pjp_screenshot](https://user-images.githubusercontent.com/24400013/156234197-b8dd4778-61bf-46e2-a455-549638380e1b.png)
+![Screenshot 2022-04-09 13-16-37](https://user-images.githubusercontent.com/24400013/162584608-de20efb4-af69-4ae2-b050-d435cbf78104.png)
 
 Requirements
 ------------
