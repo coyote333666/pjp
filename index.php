@@ -13,7 +13,7 @@
 	 */
 
 	session_start();
-	$_SESSION["user_id"]	= "1";
+	$_SESSION["user_id"]	= "10";
 
 	define("FILE_FUNCTION"			, "function.php");
 	define("FILE_BODY"				, "body.php");

@@ -1,6 +1,6 @@
 \connect "test";
 
-CREATE SEQUENCE seq_portlet INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 12 CACHE 1;
+CREATE SEQUENCE portlet_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
 
 CREATE TABLE "public"."portlet" (
     "portlet_id" integer DEFAULT nextval('seq_portlet') NOT NULL
@@ -15,7 +15,7 @@ INSERT INTO "portlet" ("header", "portlet_name") VALUES
 ('Window title of portlet_03','portlet_03'),
 ('Window title of portlet_04','portlet_04');
 
-CREATE SEQUENCE seq_user INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 12 CACHE 1;
+CREATE SEQUENCE user_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
 
 CREATE TABLE "public"."portlet_user" (
     "user_id" integer DEFAULT nextval('seq_user') NOT NULL
@@ -26,4 +26,4 @@ CREATE TABLE "public"."portlet_user" (
 ) WITH (oids = false);
 
 INSERT INTO "portlet_user" ("user_id","portlets_state", "portlets_left", "portlets_right") VALUES
-(1,'','portlet_01,portlet_02','portlet_03,portlet_04');
+(10,'','portlet_01,portlet_02','portlet_03,portlet_04');
