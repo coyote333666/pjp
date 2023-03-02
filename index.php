@@ -30,7 +30,7 @@
 	define("PG_DATABASE"			, "test");
 	define("PG_PORT"				, "5432");						
 	define("S_DIR_JQUERY_UI"		, "node_modules/jquery-ui-dist/");
-	define("S_DIR_JQUERY"			, "node_modules/jquery/dist");
+	define("S_DIR_JQUERY"			, "node_modules/jquery/dist/");
 	define("S_FILE_JQUERY"			, S_DIR_JQUERY	. "jquery.min.js");
 	define("S_FILE_JQUERY_UI_JS"	, S_DIR_JQUERY_UI	. "jquery-ui.min.js");
 	define("S_FILE_JQUERY_UI_CSS"	, S_DIR_JQUERY_UI	. "jquery-ui.min.css");
