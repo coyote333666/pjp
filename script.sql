@@ -3,7 +3,7 @@
 CREATE SEQUENCE portlet_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
 
 CREATE TABLE "public"."portlet" (
-    "portlet_id" integer DEFAULT nextval('seq_portlet') NOT NULL
+    "portlet_id" integer DEFAULT nextval('portlet_seq') NOT NULL
     ,"header" text
     ,"portlet_name" text
     , CONSTRAINT "portlet_pk" PRIMARY KEY ("portlet_id")
@@ -18,7 +18,7 @@ INSERT INTO "portlet" ("header", "portlet_name") VALUES
 CREATE SEQUENCE user_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
 
 CREATE TABLE "public"."portlet_user" (
-    "user_id" integer DEFAULT nextval('seq_user') NOT NULL
+    "user_id" integer DEFAULT nextval('user_seq') NOT NULL
     ,"portlets_state" text
     ,"portlets_left" text
     ,"portlets_right" text 
