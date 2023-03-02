@@ -54,6 +54,7 @@ Install dependancies:
 
 ```bash
 $ npm install jquery
+$ npm install jquery-ui-dist
 ```
 
 Then access the application in your browser at the given URL (localhost/pjp).
