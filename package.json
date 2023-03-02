@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jquery": "^3.6.3"
+    "jquery": "^3.6.3",
+    "jquery-ui-dist": "^1.13.2"
   }
 }
