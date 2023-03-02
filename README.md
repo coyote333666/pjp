@@ -56,7 +56,7 @@ Install dependancies:
 $ npm install jquery
 ```
 
-Then access the application in your browser at the given URL (localhost/ppm).
+Then access the application in your browser at the given URL (localhost/pjp).
 
 [1]: https://docs.docker.com/compose/install/
 [2]: https://www.postgresql.org/
