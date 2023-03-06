@@ -15,7 +15,11 @@
 		$portlet = explode(",", $section_1);
 		for($z=0; $z<sizeof($portlet); $z++)
 		{
-			require_once($portlet[$z] . ".php");
+			$filename = $portlet[$z] . ".php";
+			if (file_exists($filename))
+			{
+				require_once($filename);
+			}
 		}
 	}
 	
@@ -28,7 +32,11 @@
 		$portlet = explode(",", $section_2);
 		for($z=0; $z<sizeof($portlet); $z++)
 		{
-			require_once($portlet[$z] . ".php");
+			$filename = $portlet[$z] . ".php";
+			if (file_exists($filename))
+			{
+				require_once($filename);
+			}
 		}
 	}
 ?>

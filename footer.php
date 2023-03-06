@@ -49,7 +49,7 @@
 			$.ajax({
 				data: data,
 				type: 'POST',
-				url: '<?php echo("?" . S_PARAMETER_REDIRECTOR .S_FILE_PORTLET_UPDATE); ?>'
+				url: '<?php echo("?" . PARAMETER_REDIRECTOR .FILE_PORTLET_UPDATE); ?>'
 			}); 
 		}
 	});
@@ -79,7 +79,7 @@
 		$.ajax({
 			data: data,
 			type: 'POST',
-			url: '<?php echo("?" . S_PARAMETER_REDIRECTOR .S_FILE_PORTLET_UPDATE); ?>'
+			url: '<?php echo("?" . PARAMETER_REDIRECTOR .FILE_PORTLET_UPDATE); ?>'
 		}); 		
 	});
 	$(window).ready(function()
