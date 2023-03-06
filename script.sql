@@ -15,10 +15,10 @@ INSERT INTO "portlet" ("header", "portlet_name") VALUES
 ('Window title of portlet_03','portlet_03'),
 ('Window title of portlet_04','portlet_04');
 
-CREATE SEQUENCE user_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
+CREATE SEQUENCE portlet_user_seq INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 20 CACHE 1;
 
 CREATE TABLE "public"."portlet_user" (
-    "user_id" integer DEFAULT nextval('user_seq') NOT NULL
+    "user_id" integer DEFAULT nextval('portlet_user_seq') NOT NULL
     ,"portlets_state" text
     ,"portlets_left" text
     ,"portlets_right" text 
