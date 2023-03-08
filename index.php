@@ -29,8 +29,8 @@
 	define("PG_PASSWORD"			, "test");
 	define("PG_DATABASE"			, "test");
 	define("PG_PORT"				, "5432");						
-	define("DIR_JQUERY_UI"		, "node_modules/jquery-ui-dist/");
-	define("DIR_JQUERY"			, "node_modules/jquery/dist/");
+	define("DIR_JQUERY_UI"		, "../node_modules/jquery-ui-dist/");
+	define("DIR_JQUERY"			, "../node_modules/jquery/dist/");
 	define("FILE_JQUERY"			, DIR_JQUERY	. "jquery.min.js");
 	define("FILE_JQUERY_UI_JS"	, DIR_JQUERY_UI	. "jquery-ui.min.js");
 	define("FILE_JQUERY_UI_CSS"	, DIR_JQUERY_UI	. "jquery-ui.min.css");
