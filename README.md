@@ -52,8 +52,7 @@ Install dependancies:
 
 ```bash
 $ cd /var/www/html
-$ sudo npm install jquery
-$ sudo npm install jquery-ui-dist
+$ sudo bower install jquery-ui
 ```
 
 Then access the application in your browser at the given URL (localhost/pjp).

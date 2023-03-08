@@ -29,11 +29,11 @@
 	define("PG_PASSWORD"			, "test");
 	define("PG_DATABASE"			, "test");
 	define("PG_PORT"				, "5432");						
-	define("DIR_JQUERY_UI"		, "../node_modules/jquery-ui-dist/");
-	define("DIR_JQUERY"			, "../node_modules/jquery/dist/");
+	define("DIR_JQUERY_UI"		, "../bower_components/jquery-ui/");
+	define("DIR_JQUERY"			, "../bower_components/jquery/dist/");
 	define("FILE_JQUERY"			, DIR_JQUERY	. "jquery.min.js");
 	define("FILE_JQUERY_UI_JS"	, DIR_JQUERY_UI	. "jquery-ui.min.js");
-	define("FILE_JQUERY_UI_CSS"	, DIR_JQUERY_UI	. "jquery-ui.min.css");
+	define("FILE_JQUERY_UI_CSS"	, DIR_JQUERY_UI	. "themes/smoothness/jquery-ui.min.css");
 	define("PARAMETER_REDIRECTOR"	, "page=");
 
 
