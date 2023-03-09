@@ -48,7 +48,7 @@ $ cd pjp/
 $ psql -f script.sql -U test
 (password test)
 ```
-Install dependancies:
+Install dependencies:
 
 ```bash
 $ cd /var/www/html
