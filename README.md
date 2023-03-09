@@ -52,7 +52,7 @@ Install dependancies:
 
 ```bash
 $ cd /var/www/html
-$ sudo bower install jquery-ui
+$ sudo yarn add jquery-ui
 ```
 
 Then access the application in your browser at the given URL (localhost/pjp).
