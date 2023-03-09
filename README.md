@@ -14,7 +14,7 @@ Requirements
 Installation
 ------------
 
-Verify that you have installed, depending on your environment, [docker-compose][1] OR [postgresql][2], [npm][4], [yarn][5] and [nodejs][6].
+Verify that you have installed, depending on your environment, [docker-compose][1] OR [postgresql][2], [npm][4], [yarn][5] and [nodejs][6] and [git][7].
 
 Verify that you have PHP installed : `sudo apt-get install php` on linux or, for windows, use php already included in [xampp][3].
 If you have Windows, do not forget to indicate in the environment variable PATH, 
@@ -63,3 +63,4 @@ Then access the application in your browser at the given URL (localhost/pjp).
 [4]: https://www.npmjs.com/
 [5]: https://yarnpkg.com/
 [6]: https://nodejs.org/en/
+[7]: https://git-scm.com/
