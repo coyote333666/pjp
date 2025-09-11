@@ -1,7 +1,20 @@
 <script>
+	/**
+	 * pjp - PHP Jquery UI portal
+	 *
+	 * @see https://github.com/coyote333666/pjp The pjp GitHub project
+	 *
+	 * @author    Vincent Fortier <coyote333666@gmail.com>
+	 * @copyright 2022 Vincent Fortier
+	 * @license   http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+	 * @note      This program is distributed in the hope that it will be useful - WITHOUT
+	 * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+	 * FITNESS FOR A PARTICULAR PURPOSE.
+	 */
 	$( function() {
 
 	var showOrHide = <?php
+        $portlet[] = '';
 		$sQuery =
 		"
 			SELECT portlets_state,portlets_left,portlets_right
